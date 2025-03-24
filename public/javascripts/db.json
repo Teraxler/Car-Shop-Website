@@ -1,0 +1,807 @@
+{
+  "brands": [
+    {
+      "id":1,
+      "name": "Audi",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=audi",
+      "models": ["R8", "Q3", "Q5", "Q7", "A3", "A4", "A5", "A6", "RS5"],
+      "logo": "./images/brands/audi-logo-2016-download.png"
+    },
+    {
+      "id":2,
+      "name": "BMW",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=bmw",
+      "models": [
+        "X1 SUV",
+        "X2 Coupe SUV",
+        "X3 SUV",
+        "2 Series Gran Coupe",
+        "3 Series Sedan",
+        "i7",
+        "M4"
+      ],
+      "logo": "./images/brands/bmw-logo-2020-gray-2-download.png"
+    },
+    {
+      "id":3,
+      "name": "Mercedes Benz",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=mercedes-benz",
+      "models": [
+        "C-Class",
+        "E-Class",
+        "G-Class",
+        "GLE",
+        "EQA",
+        "EQS SUV",
+        "A-Class Hatchback",
+        "A-Class Saloon",
+        "C-Class Saloon"
+      ],
+      "logo": "./images/brands/Mercedes-Benz-logo-2011-1920x1080.png"
+    },
+    {
+      "id":4,
+      "name": "Volvo",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=volvo",
+      "models": ["S60", "XC90", "S90", "V90 Cross Country"],
+      "logo": "./images/brands/Volvo-logo-2014-1920x1080.png"
+    },
+    {
+      "id":5,
+      "name": "Bently",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=bently",
+      "models": [
+        "Continental GT",
+        "Bentayga",
+        "Flying Spur",
+        "Flying Spur",
+        "Azure"
+      ],
+      "logo": "./images/brands/bentley-logo-2002-download.png"
+    },
+    {
+      "id":6,
+      "name": "Ford",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=ford",
+      "models": ["Mustang", "Escape", "Edge", "Ranger", "F-150", "GT"],
+      "logo": "./images/brands/ford-logo-2017-download.png"
+    },
+    {
+      "id":7,
+      "name": "Volkswagen",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=volkswagen",
+      "models": ["Golf", "Tiguan", "Arteon", "Polo", "Touareg"],
+      "logo": "./images/brands/Volkswagen-logo-2019-1500x1500.png"
+    },
+    {
+      "id":8,
+      "name": "Peugeot",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=peugeot",
+      "models": ["208", "E-208", "308", "2008", "408"],
+      "logo": "./images/brands/peugeot-logo-0-1.png"
+    },
+    {
+      "id":9,
+      "name": "Mini",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=mini",
+      "models": ["Electric", "Hatch", "Countryman S ALL4", "Aceman", "Clubman"],
+      "logo": "./images/brands/Mini-logo-2001-1920x1080.png"
+    },
+    {
+      "id":10,
+      "name": "Nissan",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=nissan",
+      "models": ["Altima", "GT-R", "Sentra", "X-trail", "350Z", "Maxima"],
+      "logo": "./images/brands/nissan-logo-2020-black.png"
+    },
+    {
+      "id":11,
+      "name": "Toyota",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=toyota",
+      "models": ["Camry", "Highlander", "Corolla", "Prius", "Sequoia", "Rav4"],
+      "logo": "./images/brands/toyota-logo-2020-europe-download.png"
+    },
+    {
+      "id":12,
+      "name": "Polestar",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=polestar",
+      "models": ["Polestar 1", "Polestar 2", "Polestar 3", "Polestar 4", "Polestar 6"],
+      "logo": "./images/brands/Polestar-logo-1366x768.png"
+    },
+    {
+      "id":13,
+      "name": "Porsche",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=porsche",
+      "models": ["718 Cayman", "718 Cayman", "718 Cayman GT4 RS", "911 Carrera", "911 Carrera", "911 Targa 4 GTS"],
+      "logo": "./images/brands/porsche-logo-2014-download.png"
+    },
+    {
+      "id":14,
+      "name": "Rolls Royce",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=rolls-royce",
+      "models": ["Ghost", "Phantom", "Dawn", "Cullinan", "Black Badge"],
+      "logo": "./images/brands/Rolls-Royce-logo-2048x2048.png"
+    },
+    {
+      "id":15,
+      "name": "Kia",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=kia",
+      "models": ["EV9", "Stinge", "Seltos", "Niro EV", "Sportage", "Telluride"],
+      "logo": "./images/brands/Kia-logo-2560x1440.png"
+    },
+    {
+      "id":16,
+      "name": "Land Rover",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=land-rover",
+      "models": ["Freelander", "Defender", " Discovery Sport", "Evoque", "Discovery", "LR2"],
+      "logo": "./images/brands/Land-Rover-logo-2011-1920x1080.png"
+    },
+    {
+      "id":17,
+      "name": "Lotus",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=lotus",
+      "models": ["Evora", "Emeya", "Evija", "Esprit", "Elise", "Exige"],
+      "logo": "./images/brands/Lotus-logo-2019-1800x1800.png"
+    },
+    {
+      "id":18,
+      "name": "Mini",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=mini",
+      "models": ["Hatch", "Aceman", "Electric", "Convertible", "Cooper S"],
+      "logo": "./images/brands/Mini-logo-2001-1920x1080.png"
+    },
+    {
+      "id":19,
+      "name": "Mitsubishi",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=mitsubishi",
+      "models": [" Outlander", "Mirage", "Eclipse Cross"],
+      "logo": "./images/brands/Mitsubishi-logo-2000x2500.png"
+    },
+    {
+      "id":20,
+      "name": "Lexus",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=lexus",
+      "models": ["GX", "ES", "NX","UX", "RX", "","", "", ""],
+      "logo": "./images/brands/"
+    },
+    {
+      "id":21,
+      "name": "Mazda",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=mazda",
+      "models": ["CX-90 PHEV", "CX-90", "CX-50","CX-90"],
+      "logo": "./images/brands/"
+    },
+    {
+      "id":22,
+      "name": "Jeep",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=jeep",
+      "models": ["Wrangler", "Grand Cherokee", "Cherokee","Renegade", "Wrangler 4xe"],
+      "logo": "./images/brands/"
+    },
+    {
+      "id":23,
+      "name": "Chevrolet",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=chevrolet",
+      "models": [" Colorado", "Blazer", "Equinox","Tahoe", " Camaro", "Trax"],
+      "logo": "./images/brands/"
+    },
+    {
+      "id":24,
+      "name": "Hyundai",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=hundai",
+      "models": ["", "", "","", "", "","", "", ""],
+      "logo": "./images/brands/"
+    },
+    {
+      "id":25,
+      "name": "Honda",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=honda",
+      "models": ["", "", "","", "", "","", "", ""],
+      "logo": "./images/brands/"
+    },
+    {
+      "id":26,
+      "name": "Alfa Romeo",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=alfa-romeo",
+      "models": [" Tonale", "Stelvio Quadrifoglio", "Giulia"],
+      "logo": "./images/brands/"
+    },
+    {
+      "id":27,
+      "name": "Jaguar",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=jaguar",
+      "models": ["F-Pace", "F‑Type", "I-Pace"],
+      "logo": "./images/brands/"
+    },
+    {
+      "id":28,
+      "name": "McLaren",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=mc-laren",
+      "models": ["12C", "650S", "Senna","F1", "GTS", "600LT Spider","570GT", "720S"],
+      "logo": "./images/brands/"
+    },
+    {
+      "id":29,
+      "name": "Lamborgini",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=lamborgini",
+      "models": ["Murcielago", "Gallardo", "Aventador","Huracan", "Urus"],
+      "logo": "./images/brands/"
+    },
+    {
+      "id":30,
+      "name": "Ferrari",
+      "link": "http://127.0.0.1:5500/public/index.html?brand=",
+      "models": [" Roma", "SF90 Spider", "Purosangue","296 GTB", "SF90 Stradale"],
+      "logo": "./images/brands/"
+    }
+  ],
+
+  "cars": [
+    {
+      "id": 1,
+      "manufacturer": "Bentley",
+      "model": "Bentayga",
+      "modelSeries": "",
+      "bodyStyle": "SUV",
+      "trimLevel": "",
+      "year": 2020,
+      "topSpeed": 290,
+      "color": "Silver",
+      "mileage": 20000,
+      "price": 25000,
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "engine": "4.0L V8 twin-turbocharged",
+      "horsepower": 542,
+      "features": ["Bluetooth", "Backup Camera", "Keyless Entry"],
+      "owners": 1,
+      "images": [
+        "./images/cars/brntley-bentayga.jpg",
+        "./images/cars/brntley-bentayga-back.jpg"
+      ],
+      "discount": 20,
+      "isUsed": false
+    },
+    {
+      "id": 2,
+      "manufacturer": "Nissan",
+      "model": "Murano",
+      "modelSeries": "",
+      "bodyStyle": "SUV",
+      "trimLevel": "",
+      "year": 2023,
+      "topSpeed": 330,
+      "color": "Silver",
+      "mileage": 0,
+      "price": 33660,
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "engine": "3.5L V6",
+      "horsepower": 316,
+      "features": [
+        "Heater",
+        "Air Conditioner",
+        "Power Windows",
+        " Central Locking ",
+        " AntiLock Braking System "
+      ],
+      "owners": 1,
+      "images": ["./images/cars/car-2.jpg"],
+      "discount": 20,
+      "isUsed": false
+    },
+    {
+      "id": 3,
+      "manufacturer": "Mini",
+      "model": "Hatch",
+      "modelSeries": "",
+      "bodyStyle": "Hatchback",
+      "trimLevel": "",
+      "year": 2018,
+      "topSpeed": 210,
+      "color": "Silver",
+      "mileage": 0,
+      "price": 22500,
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "engine": "1.5L turbocharged three-cylinder",
+      "horsepower": 136,
+      "features": [
+        "Heater",
+        "Air Conditioner",
+        "Power Windows",
+        " Central Locking ",
+        " AntiLock Braking System "
+      ],
+      "owners": 1,
+      "images": ["./images/cars/car3.jpg"],
+      "discount": 0,
+      "isUsed": false
+    },
+    {
+      "id": 4,
+      "manufacturer": "Land Rover",
+      "model": "Range Rover Velar",
+      "modelSeries": "",
+      "bodyStyle": "SUV",
+      "trimLevel": "",
+      "year": 2023,
+      "topSpeed": 217,
+      "color": "Silver",
+      "mileage": 0,
+      "price": 61575,
+      "fuelType": "Diesel",
+      "transmission": "Automatic",
+      "engine": "3.0L turbocharged three-cylinder",
+      "horsepower": 247,
+      "features": [
+        "Heater",
+        "Air Conditioner",
+        "Power Windows",
+        " Central Locking ",
+        " AntiLock Braking System "
+      ],
+      "owners": 1,
+      "images": ["./images/cars/car4.jpg"],
+      "discount": 2.5,
+      "isUsed": false
+    },
+    {
+      "id": 5,
+      "manufacturer": "BMW",
+      "model": "M8 Gran",
+      "modelSeries": "",
+      "bodyStyle": "Coupe",
+      "trimLevel": "",
+      "year": 2020,
+      "topSpeed": 249,
+      "color": "Silver",
+      "mileage": 12000,
+      "price": 130000,
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "engine": "4.4L V8",
+      "horsepower": 247,
+      "features": [
+        "Heater",
+        "Air Conditioner",
+        "Power Windows",
+        " Central Locking ",
+        " AntiLock Braking System "
+      ],
+      "owners": 1,
+      "images": ["./images/cars/car9.jpg"],
+      "discount": 1,
+      "isUsed": false
+    },
+    {
+      "id": 6,
+      "manufacturer": "Volvo",
+      "model": " XC90",
+      "modelSeries": "",
+      "bodyStyle": "SUV",
+      "trimLevel": "",
+      "year": 2020,
+      "topSpeed": 249,
+      "color": "Silver",
+      "mileage": 0,
+      "price": 56800,
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "engine": "2.0L L4",
+      "horsepower": 250,
+      "features": [
+        "Heater",
+        "Air Conditioner",
+        "Power Windows",
+        " Central Locking ",
+        " AntiLock Braking System "
+      ],
+      "owners": 1,
+      "images": ["./images/cars/car6.jpg"],
+      "discount": 5,
+      "isUsed": true
+    },
+    {
+      "id": 7,
+      "manufacturer": "Bentley",
+      "model": "Bentayga",
+      "modelSeries": "",
+      "bodyStyle": "SUV",
+      "trimLevel": "",
+      "year": 2020,
+      "topSpeed": 290,
+      "color": "Rose Gold",
+      "mileage": 150000,
+      "price": 25000,
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "engine": "4.0L V8 twin-turbocharged",
+      "horsepower": 542,
+      "features": ["Bluetooth", "Backup Camera", "Keyless Entry"],
+      "owners": 1,
+      "images": ["./images/cars/car10.png", "./images/cars/car12.jpg"],
+      "discount": 0,
+      "isUsed": true
+    },
+    {
+      "id": 8,
+      "manufacturer": "Bentley",
+      "model": "Bentayga",
+      "modelSeries": "",
+      "bodyStyle": "SUV",
+      "trimLevel": "",
+      "year": 2020,
+      "topSpeed": 290,
+      "color": "Rose Gold",
+      "mileage": 150000,
+      "price": 25000,
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "engine": "4.0L V8 twin-turbocharged",
+      "horsepower": 542,
+      "features": ["Bluetooth", "Backup Camera", "Keyless Entry"],
+      "owners": 1,
+      "images": ["./images/cars/car10.png", "./images/cars/car12.jpg"],
+      "discount": 0,
+      "isUsed": true
+    },
+    {
+      "id": 9,
+      "manufacturer": "Bentley",
+      "model": "Bentayga",
+      "modelSeries": "",
+      "bodyStyle": "SUV",
+      "trimLevel": "",
+      "year": 2020,
+      "topSpeed": 290,
+      "color": "Rose Gold",
+      "mileage": 150000,
+      "price": 25000,
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "engine": "4.0L V8 twin-turbocharged",
+      "horsepower": 542,
+      "features": ["Bluetooth", "Backup Camera", "Keyless Entry"],
+      "owners": 1,
+      "images": ["./images/cars/car10.png", "./images/cars/car12.jpg"],
+      "discount": 0,
+      "isUsed": true
+    },
+    {
+      "id": 10,
+      "manufacturer": "Bentley",
+      "model": "Bentayga",
+      "modelSeries": "",
+      "bodyStyle": "SUV",
+      "trimLevel": "",
+      "year": 2020,
+      "topSpeed": 290,
+      "color": "Rose Gold",
+      "mileage": 150000,
+      "price": 25000,
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "engine": "4.0L V8 twin-turbocharged",
+      "horsepower": 542,
+      "features": ["Bluetooth", "Backup Camera", "Keyless Entry"],
+      "owners": 1,
+      "images": ["./images/cars/car10.png", "./images/cars/car12.jpg"],
+      "discount": 0,
+      "isUsed": true
+    },
+    {
+      "id": 11,
+      "manufacturer": "Bentley",
+      "model": "Bentayga",
+      "modelSeries": "",
+      "bodyStyle": "SUV",
+      "trimLevel": "",
+      "year": 2020,
+      "topSpeed": 290,
+      "color": "Rose Gold",
+      "mileage": 150000,
+      "price": 25000,
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "engine": "4.0L V8 twin-turbocharged",
+      "horsepower": 542,
+      "features": ["Bluetooth", "Backup Camera", "Keyless Entry"],
+      "owners": 1,
+      "images": ["./images/cars/car10.png", "./images/cars/car12.jpg"],
+      "discount": 0,
+      "isUsed": true
+    },
+    {
+      "id": 12,
+      "manufacturer": "Bentley",
+      "model": "Bentayga",
+      "modelSeries": "",
+      "bodyStyle": "SUV",
+      "trimLevel": "",
+      "year": 2020,
+      "topSpeed": 290,
+      "color": "Rose Gold",
+      "mileage": 150000,
+      "price": 25000,
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "engine": "4.0L V8 twin-turbocharged",
+      "horsepower": 542,
+      "features": ["Bluetooth", "Backup Camera", "Keyless Entry"],
+      "owners": 1,
+      "images": ["./images/cars/car10.png", "./images/cars/car12.jpg"],
+      "discount": 0,
+      "isUsed": true
+    },
+    {
+      "id": 13,
+      "manufacturer": "Bentley",
+      "model": "Bentayga",
+      "modelSeries": "",
+      "bodyStyle": "SUV",
+      "trimLevel": "",
+      "year": 2020,
+      "topSpeed": 290,
+      "color": "Rose Gold",
+      "mileage": 150000,
+      "price": 25000,
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "engine": "4.0L V8 twin-turbocharged",
+      "horsepower": 542,
+      "features": ["Bluetooth", "Backup Camera", "Keyless Entry"],
+      "owners": 1,
+      "images": ["./images/cars/car10.png", "./images/cars/car12.jpg"],
+      "discount": 0,
+      "isUsed": true
+    },
+    {
+      "id": 12,
+      "manufacturer": "Bentley",
+      "model": "Bentayga",
+      "modelSeries": "",
+      "bodyStyle": "SUV",
+      "trimLevel": "",
+      "year": 2020,
+      "topSpeed": 290,
+      "color": "Rose Gold",
+      "mileage": 150000,
+      "price": 25000,
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "engine": "4.0L V8 twin-turbocharged",
+      "horsepower": 542,
+      "features": ["Bluetooth", "Backup Camera", "Keyless Entry"],
+      "owners": 1,
+      "images": ["./images/cars/car10.png", "./images/cars/car12.jpg"],
+      "discount": 0,
+      "isUsed": true
+    },
+    {
+      "id": 13,
+      "manufacturer": "Bentley",
+      "model": "Bentayga",
+      "modelSeries": "",
+      "bodyStyle": "SUV",
+      "trimLevel": "",
+      "year": 2020,
+      "topSpeed": 290,
+      "color": "Rose Gold",
+      "mileage": 150000,
+      "price": 25000,
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "engine": "4.0L V8 twin-turbocharged",
+      "horsepower": 542,
+      "features": ["Bluetooth", "Backup Camera", "Keyless Entry"],
+      "owners": 1,
+      "images": ["./images/cars/car10.png", "./images/cars/car12.jpg"],
+      "discount": 0,
+      "isUsed": true
+    },    {
+      "id": 12,
+      "manufacturer": "Bentley",
+      "model": "Bentayga",
+      "modelSeries": "",
+      "bodyStyle": "SUV",
+      "trimLevel": "",
+      "year": 2020,
+      "topSpeed": 290,
+      "color": "Rose Gold",
+      "mileage": 150000,
+      "price": 25000,
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "engine": "4.0L V8 twin-turbocharged",
+      "horsepower": 542,
+      "features": ["Bluetooth", "Backup Camera", "Keyless Entry"],
+      "owners": 1,
+      "images": ["./images/cars/car10.png", "./images/cars/car12.jpg"],
+      "discount": 0,
+      "isUsed": true
+    },
+    {
+      "id": 13,
+      "manufacturer": "Bentley",
+      "model": "Bentayga",
+      "modelSeries": "",
+      "bodyStyle": "SUV",
+      "trimLevel": "",
+      "year": 2020,
+      "topSpeed": 290,
+      "color": "Rose Gold",
+      "mileage": 150000,
+      "price": 25000,
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "engine": "4.0L V8 twin-turbocharged",
+      "horsepower": 542,
+      "features": ["Bluetooth", "Backup Camera", "Keyless Entry"],
+      "owners": 1,
+      "images": ["./images/cars/car10.png", "./images/cars/car12.jpg"],
+      "discount": 0,
+      "isUsed": true
+    }
+  ],
+
+  "customers": [
+    {
+      "id":1,
+      "name": "Ali TUFAN",
+      "job":"Designer",
+      "score": 5,
+      "comment": " I'd suggest Macklin Motors Nissan Glasgow South to a friend because I had great service from my salesman Patrick and all of the team. ",
+      "profileImg": "./images/customers/user-1.jpg"
+    },
+    {
+      "id":2,
+      "name": "Ahmad",
+      "job":"Worker",
+      "score": 4.9,
+      "comment": " I'd suggest Macklin Motors Nissan Glasgow South to a friend because I had great service from my salesman Patrick and all of the team. ",
+      "profileImg": "./images/customers/user-1.jpg"
+    },
+    {
+      "id":3,
+      "name": "Mahdi",
+      "job":"Developer",
+      "score": 4.5,
+      "comment": " I'd suggest Macklin Motors Nissan Glasgow South to a friend because I had great service from my salesman Patrick and all of the team. ",
+      "profileImg": "./images/customers/user-1.jpg"
+    },
+    {
+      "id":1,
+      "name": "Ali TUFAN",
+      "job":"Designer",
+      "score": 5,
+      "comment": " I'd suggest Macklin Motors Nissan Glasgow South to a friend because I had great service from my salesman Patrick and all of the team. ",
+      "profileImg": "./images/customers/user-1.jpg"
+    },
+    {
+      "id":2,
+      "name": "Ahmad",
+      "job":"Worker",
+      "score": 4.9,
+      "comment": " I'd suggest Macklin Motors Nissan Glasgow South to a friend because I had great service from my salesman Patrick and all of the team. ",
+      "profileImg": "./images/customers/user-1.jpg"
+    },
+    {
+      "id":3,
+      "name": "Mahdi",
+      "job":"Developer",
+      "score": 4.5,
+      "comment": " I'd suggest Macklin Motors Nissan Glasgow South to a friend because I had great service from my salesman Patrick and all of the team. ",
+      "profileImg": "./images/customers/user-1.jpg"
+    },
+    {
+      "id":1,
+      "name": "Ali TUFAN",
+      "job":"Designer",
+      "score": 5,
+      "comment": " I'd suggest Macklin Motors Nissan Glasgow South to a friend because I had great service from my salesman Patrick and all of the team. ",
+      "profileImg": "./images/customers/user-1.jpg"
+    },
+    {
+      "id":2,
+      "name": "Ahmad",
+      "job":"Worker",
+      "score": 4.9,
+      "comment": " I'd suggest Macklin Motors Nissan Glasgow South to a friend because I had great service from my salesman Patrick and all of the team. ",
+      "profileImg": "./images/customers/user-1.jpg"
+    },
+    {
+      "id":3,
+      "name": "Mahdi",
+      "job":"Developer",
+      "score": 4.5,
+      "comment": " I'd suggest Macklin Motors Nissan Glasgow South to a friend because I had great service from my salesman Patrick and all of the team. ",
+      "profileImg": "./images/customers/user-1.jpg"
+    }, {
+      "id":1,
+      "name": "Ali TUFAN",
+      "job":"Designer",
+      "score": 5,
+      "comment": " I'd suggest Macklin Motors Nissan Glasgow South to a friend because I had great service from my salesman Patrick and all of the team. ",
+      "profileImg": "./images/customers/user-1.jpg"
+    },
+    {
+      "id":2,
+      "name": "Ahmad",
+      "job":"Worker",
+      "score": 4.9,
+      "comment": " I'd suggest Macklin Motors Nissan Glasgow South to a friend because I had great service from my salesman Patrick and all of the team. ",
+      "profileImg": "./images/customers/user-1.jpg"
+    },
+    {
+      "id":3,
+      "name": "Mahdi",
+      "job":"Developer",
+      "score": 4.5,
+      "comment": " I'd suggest Macklin Motors Nissan Glasgow South to a friend because I had great service from my salesman Patrick and all of the team. ",
+      "profileImg": "./images/customers/user-1.jpg"
+    }, {
+      "id":1,
+      "name": "Ali TUFAN",
+      "job":"Designer",
+      "score": 5,
+      "comment": " I'd suggest Macklin Motors Nissan Glasgow South to a friend because I had great service from my salesman Patrick and all of the team. ",
+      "profileImg": "./images/customers/user-1.jpg"
+    },
+    {
+      "id":2,
+      "name": "Ahmad",
+      "job":"Worker",
+      "score": 4.9,
+      "comment": " I'd suggest Macklin Motors Nissan Glasgow South to a friend because I had great service from my salesman Patrick and all of the team. ",
+      "profileImg": "./images/customers/user-1.jpg"
+    },
+    {
+      "id":3,
+      "name": "Mahdi",
+      "job":"Developer",
+      "score": 4.5,
+      "comment": " I'd suggest Macklin Motors Nissan Glasgow South to a friend because I had great service from my salesman Patrick and all of the team. ",
+      "profileImg": "./images/customers/user-1.jpg"
+    }
+  ],
+
+  "blogs": [
+    {
+      "id":1,
+      "title":"2024 BMW ALPINA XB7 with exclusive details, extraordinary",
+      "descriptions":"",
+      "author": "Mahdi",
+      "date": {
+        "year": 2024,
+        "month": "September"
+        ,"day":  19
+      },
+      "image": "./images/blogs/car6.jpg"
+    },
+    {
+      "id":2,
+      "title":"2024 BMW ALPINA XB7 with exclusive details, extraordinary",
+      "descriptions":"",
+      "author": "Amir",
+      "date": {
+        "year": 2023,
+        "month": "November"
+        ,"day":  22
+      },
+      "image": "./images/blogs/car7.jpg"
+    },
+    {
+      "id":3,
+      "title":"2024 BMW ALPINA XB7 with exclusive details, extraordinary 2024 BMW ALPINA XB7 with exclusive details",
+      "descriptions":"",
+      "author": "Hassan",
+      "date": {
+        "year": 2020,
+        "month": "September"
+        ,"day":  1
+      },
+      "image": "./images/blogs/car8.jpg"
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../styles/app.css" />
+
+    <title>Car Shop | Cars</title>
+  </head>
+  <body>
+    <!-- SVG Icons -->
+    <svg class="hidden">
+      <symbol
+        id="user"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
+        />
+      </symbol>
+      <symbol
+        id="logo"
+        viewBox="0 0 108 27"
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7.20844 0.720428C11.1984 0.720428 12.9134 2.57543 12.9134 6.35543V7.23043C12.9134 9.75043 12.1434 11.3604 10.4284 12.1654C12.4934 12.9704 13.2984 14.8254 13.2984 17.4154V19.4104C13.2984 23.1904 11.3034 25.2204 7.45344 25.2204H1.39844V0.720428H7.20844ZM6.96344 14.1954H5.24844V21.7204H7.45344C8.74844 21.7204 9.44844 21.1254 9.44844 19.3054V17.1704C9.44844 14.8954 8.71344 14.1954 6.96344 14.1954ZM7.10344 4.22043H5.24844V10.6954H6.75344C8.18844 10.6954 9.06344 10.0654 9.06344 8.10543V6.74043C9.06344 4.99043 8.46844 4.22043 7.10344 4.22043ZM20.9022 6.35543V19.5854C20.9022 21.3354 21.6722 22.0004 22.8972 22.0004C24.1222 22.0004 24.8922 21.3354 24.8922 19.5854V6.35543C24.8922 4.60543 24.1222 3.94043 22.8972 3.94043C21.6722 3.94043 20.9022 4.60543 20.9022 6.35543ZM17.0522 19.3404V6.60043C17.0522 2.68043 19.1172 0.44043 22.8972 0.44043C26.6772 0.44043 28.7422 2.68043 28.7422 6.60043V19.3404C28.7422 23.2604 26.6772 25.5004 22.8972 25.5004C19.1172 25.5004 17.0522 23.2604 17.0522 19.3404ZM41.7564 0.720428H45.3264L41.3014 12.6204L45.6064 25.2204H41.5464L38.3964 15.5254L35.2114 25.2204H31.6064L35.9114 12.6204L31.8864 0.720428H35.8764L38.7814 9.75043L41.7564 0.720428ZM56.2828 16.0854H59.9228V19.3404C59.9228 23.2604 57.9628 25.5004 54.1828 25.5004C50.4028 25.5004 48.4428 23.2604 48.4428 19.3404V6.60043C48.4428 2.68043 50.4028 0.44043 54.1828 0.44043C57.9628 0.44043 59.9228 2.68043 59.9228 6.60043V8.98043H56.2828V6.35543C56.2828 4.60543 55.5128 3.94043 54.2878 3.94043C53.0628 3.94043 52.2928 4.60543 52.2928 6.35543V19.5854C52.2928 21.3354 53.0628 21.9654 54.2878 21.9654C55.5128 21.9654 56.2828 21.3354 56.2828 19.5854V16.0854ZM72.5488 0.720428L76.4688 25.2204H72.5838L71.9188 20.7754H67.1938L66.5288 25.2204H62.9938L66.9138 0.720428H72.5488ZM69.5388 5.06043L67.6838 17.4504H71.3938L69.5388 5.06043ZM91.9817 25.2204H88.0617C87.8517 24.5904 87.7117 24.2054 87.7117 22.2104V18.3604C87.7117 16.0854 86.9417 15.2454 85.1917 15.2454H83.8617V25.2204H80.0117V0.720428H85.8217C89.8117 0.720428 91.5267 2.57543 91.5267 6.35543V8.28043C91.5267 10.8004 90.7217 12.4454 89.0067 13.2504C90.9317 14.0554 91.5617 15.9104 91.5617 18.4654V22.2454C91.5617 23.4354 91.5967 24.3104 91.9817 25.2204ZM85.7167 4.22043H83.8617V11.7454H85.3667C86.8017 11.7454 87.6767 11.1154 87.6767 9.15543V6.74043C87.6767 4.99043 87.0817 4.22043 85.7167 4.22043ZM95.3537 6.60043C95.3537 2.68043 97.2787 0.44043 101.023 0.44043C104.768 0.44043 106.693 2.68043 106.693 6.60043V7.37043H103.053V6.35543C103.053 4.60543 102.353 3.94043 101.128 3.94043C99.9037 3.94043 99.2037 4.60543 99.2037 6.35543C99.2037 11.3954 106.728 12.3404 106.728 19.3404C106.728 23.2604 104.768 25.5004 100.988 25.5004C97.2087 25.5004 95.2487 23.2604 95.2487 19.3404V17.8354H98.8887V19.5854C98.8887 21.3354 99.6587 21.9654 100.883 21.9654C102.108 21.9654 102.878 21.3354 102.878 19.5854C102.878 14.5454 95.3537 13.6004 95.3537 6.60043Z"
+        />
+      </symbol>
+      <symbol
+        id="bars-3"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
+          clip-rule="evenodd"
+        />
+      </symbol>
+      <symbol
+        id="magnifying-glass"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+        />
+      </symbol>
+      <symbol id="configuration" viewBox="0 0 21 21">
+        <path
+          d="M13.4433 4.11315C12.6878 4.11315 12.0211 4.35759 11.4433 4.84648C10.8655 5.33537 10.51 5.93537 10.3767 6.64648H2.17666C1.99888 6.64648 1.85444 6.70204 1.74333 6.81315C1.63222 6.92426 1.57666 7.06871 1.57666 7.24648C1.57666 7.42426 1.63222 7.57982 1.74333 7.71315C1.85444 7.84648 1.99888 7.91315 2.17666 7.91315H10.3767C10.51 8.62426 10.8655 9.21315 11.4433 9.67982C12.0211 10.1465 12.6878 10.3798 13.4433 10.3798C14.1989 10.3798 14.8544 10.1465 15.41 9.67982C15.9655 9.21315 16.3322 8.62426 16.51 7.91315H18.4433C18.6211 7.91315 18.7656 7.84648 18.8767 7.71315C18.9878 7.57982 19.0433 7.42426 19.0433 7.24648C19.0433 7.06871 18.9878 6.92426 18.8767 6.81315C18.7656 6.70204 18.6211 6.64648 18.4433 6.64648H16.51C16.3322 5.93537 15.9655 5.33537 15.41 4.84648C14.8544 4.35759 14.1989 4.11315 13.4433 4.11315ZM13.4433 5.37982C13.9767 5.37982 14.4211 5.56871 14.7767 5.94648C15.1322 6.32426 15.31 6.76871 15.31 7.27982C15.31 7.79093 15.1322 8.22426 14.7767 8.57982C14.4211 8.93537 13.9767 9.11315 13.4433 9.11315C12.91 9.11315 12.4655 8.93537 12.11 8.57982C11.7544 8.22426 11.5767 7.79093 11.5767 7.27982C11.5767 6.76871 11.7544 6.32426 12.11 5.94648C12.4655 5.56871 12.91 5.37982 13.4433 5.37982ZM7.17666 10.3798C6.4211 10.3798 5.76555 10.6132 5.20999 11.0798C4.65444 11.5465 4.28777 12.1576 4.10999 12.9132H2.17666C1.99888 12.9132 1.85444 12.9687 1.74333 13.0798C1.63222 13.1909 1.57666 13.3354 1.57666 13.5132C1.57666 13.6909 1.63222 13.8354 1.74333 13.9465C1.85444 14.0576 1.99888 14.1132 2.17666 14.1132H4.10999C4.28777 14.8687 4.65444 15.4798 5.20999 15.9465C5.76555 16.4132 6.4211 16.6465 7.17666 16.6465C7.93222 16.6465 8.59888 16.4132 9.17666 15.9465C9.75444 15.4798 10.11 14.8687 10.2433 14.1132H18.4433C18.6211 14.1132 18.7656 14.0576 18.8767 13.9465C18.9878 13.8354 19.0433 13.6909 19.0433 13.5132C19.0433 13.3354 18.9878 13.1909 18.8767 13.0798C18.7656 12.9687 18.6211 12.9132 18.4433 12.9132H10.2433C10.11 12.1576 9.75444 11.5465 9.17666 11.0798C8.59888 10.6132 7.93222 10.3798 7.17666 10.3798ZM7.17666 11.6465C7.70999 11.6465 8.15444 11.8243 8.50999 12.1798C8.86555 12.5354 9.04333 12.9798 9.04333 13.5132C9.04333 14.0465 8.86555 14.4909 8.50999 14.8465C8.15444 15.202 7.70999 15.3798 7.17666 15.3798C6.64333 15.3798 6.19888 15.202 5.84333 14.8465C5.48777 14.4909 5.30999 14.0465 5.30999 13.5132C5.30999 12.9798 5.48777 12.5354 5.84333 12.1798C6.19888 11.8243 6.64333 11.6465 7.17666 11.6465Z"
+          fill="#050B20"
+        />
+      </symbol>
+    </svg>
+    <!-- Header -->
+    <header class="bg-primary">
+      <!-- Nav -->
+      <div
+        class="flex items-center justify-between text-sm lg:text-parent px-4 sm:px-15 py-7 h-24 text-white"
+      >
+        <!-- Logo -->
+        <div>
+          <svg class="w-24 lg:w-[108px] h-6.5">
+            <use href="#logo"></use>
+          </svg>
+        </div>
+        <!-- Menu -->
+        <nav class="hidden md:flex gap-x-4 lg:gap-x-7.5 font-medium">
+          <ul class="flex items-center gap-x-4 lg:gap-x-7.5">
+            <li class="flex items-center h-full"><a href="#">Home</a></li>
+            <li class="flex items-center h-full"><a href="#">Listings</a></li>
+            <li class="flex items-center h-full relative group">
+              <!-- Has Submenu -->
+              <a class="chevron-icon" href="javascript:void(0)"> Blog </a>
+              <!-- Submenu -->
+              <ul
+                class="absolute top-full flex flex-col bg-white text-primary px-2 py-2 rounded-md w-0 invisible opacity-0 overflow-hidden delay-75 group-hover:w-44 group-hover:opacity-100 group-hover:visible transition"
+              >
+                <a
+                  class="px-2 py-px line-clamp-1 rounded-md hover:bg-secondary hover:text-white transition-all"
+                  href="javascript:void(0)"
+                >
+                  The most expensive cars in 2024
+                </a>
+                <a
+                  class="px-2 py-px line-clamp-1 rounded-md hover:bg-secondary hover:text-white transition-all"
+                  href="javascript:void(0)"
+                >
+                  The Fasest Car in the World
+                </a>
+                <a
+                  class="px-2 py-px line-clamp-1 rounded-md hover:bg-secondary hover:text-white transition-all"
+                  href="javascript:void(0)"
+                >
+                  Bugatti vs Tesla
+                </a>
+                <a
+                  class="px-2 py-px line-clamp-1 rounded-md hover:bg-secondary hover:text-white transition-all"
+                  href="javascript:void(0)"
+                >
+                  New Rolls Royce 2024
+                </a>
+              </ul>
+            </li>
+            <li class="flex items-center h-full"><a href="#">About</a></li>
+            <li class="flex items-center h-full"><a href="#">Contact</a></li>
+          </ul>
+          <!-- Menu Right -->
+          <div class="flex items-center gap-x-4 lg:gap-x-7.5">
+            <a href="#" class="flex items-center gap-x-2.5">
+              <svg class="size-5">
+                <use href="#user"></use>
+              </svg>
+              Sign in
+            </a>
+            <a
+              href="#"
+              class="flex items-center justify-center px-2.5 lg:w-38.25 h-10 lg:h-12 bg-white text-black rounded-full"
+            >
+              Submit Listing
+            </a>
+          </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+          <div class="flex items-center justify-between">
+            <!-- Logo -->
+            <div>
+              <svg class="w-20 h-6.5 mx-auto text-primary">
+                <use href="#logo"></use>
+              </svg>
+            </div>
+            <div id="close-menu-icon" class="cursor-pointer">
+              <svg class="size-5">
+                <use href="#x-mark-mini"></use>
+              </svg>
+            </div>
+          </div>
+          <ul class="flex flex-col gap-y-5">
+            <li><a href="#" class="block">Home</a></li>
+            <li><a href="#" class="block">Listings</a></li>
+            <!-- Has Submenu -->
+            <li class="relative" id="submenu-mobile-container">
+              <a href="#" class="block chevron-icon">Blog</a>
+              <!-- Submenu -->
+              <ul class="submenu-mobile">
+                <a
+                  class="mb-1 px-2 py-px line-clamp-1 rounded-md hover:bg-secondary hover:text-white transition-all"
+                  href="javascript:void(0)"
+                >
+                  The most expensive cars in 2024
+                </a>
+                <a
+                  class="mb-1 px-2 py-px line-clamp-1 rounded-md hover:bg-secondary hover:text-white transition-all"
+                  href="javascript:void(0)"
+                >
+                  The Fasest Car in the World
+                </a>
+                <a
+                  class="mb-1 px-2 py-px line-clamp-1 rounded-md hover:bg-secondary hover:text-white transition-all"
+                  href="javascript:void(0)"
+                >
+                  Bugatti vs Tesla
+                </a>
+                <a
+                  class="mb-1 px-2 py-px line-clamp-1 rounded-md hover:bg-secondary hover:text-white transition-all"
+                  href="javascript:void(0)"
+                >
+                  New Rolls Royce 2024
+                </a>
+              </ul>
+            </li>
+            <li><a href="#" class="block">About</a></li>
+            <li><a href="#" class="block">Contact</a></li>
+          </ul>
+          <!-- Menu Right -->
+          <div class="flex flex-col gap-y-5">
+            <a href="#" class="block"> Sign in </a>
+            <a href="#" class="flex text-primary rounded-full">
+              Submit Listing
+            </a>
+          </div>
+        </div>
+        <!-- Open Menu -->
+        <div class="open-menu-icon md:hidden cursor-pointer">
+          <svg class="size-6">
+            <use href="#bars-3"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="container">
+        <!-- Filter cars -->
+        <div
+          class="flex items-center max-w-full xl:w-292.5 mx-auto py-2.5 pr-2.5 pl-1.25 bg-white rounded-[80px]"
+        >
+          <div class="drop-down">
+            <label class="drop-down__label chevron-icon" for="car-condition">
+              Condition
+            </label>
+            <input class="drop-down__input" type="checkbox" id="car-condition" />
+            <ul class="drop-down__list">
+              <li class="drop-down__list-item">In Stock</li>
+              <li class="drop-down__list-item">New</li>
+              <li class="drop-down__list-item">Used</li>
+            </ul>
+          </div>
+          <div class="drop-down">
+            <label class="drop-down__label chevron-icon" for="car-maker">
+              Any Makers
+            </label>
+            <input class="drop-down__input" type="checkbox" id="car-maker" />
+            <ul class="drop-down__list">
+              <!-- Car Makers -->
+              <li class="drop-down__list-item">BMW</li>
+            </ul>
+          </div>
+          <div class="drop-down">
+            <label class="drop-down__label chevron-icon" for="car-model">
+              Any Models
+            </label>
+            <input class="drop-down__input" type="checkbox" id="car-model" />
+            <ul class="drop-down__list">
+              <!-- Car Models -->
+              <li class="drop-down__list-item" data-value="Any Models">
+                Any Models
+              </li>
+              <li class="drop-down__list-item">Series 3</li>
+            </ul>
+          </div>
+          <div class="drop-down">
+            <label class="drop-down__label chevron-icon" for="car-price">
+              All Prices
+            </label>
+            <input class="drop-down__input" type="checkbox" id="car-price" />
+            <ul class="drop-down__list min-w-max">
+              <!-- Car Prices -->
+              <li
+                class="px-2 md:px-2.5 md:py-px line-clamp-1 hover:bg-secondary hover:text-white transition-colors cursor-pointer rounded-md"
+                data-value="all"
+                title="All Prices"
+              >
+                All Prices
+              </li>
+              <li
+                data-value="0-10K"
+                class="px-2 md:px-2.5 md:py-px line-clamp-1 hover:bg-secondary hover:text-white transition-colors cursor-pointer rounded-md"
+                title="$0 - $10K">
+                $0 - $10K
+              </li>
+              <li
+                data-value="10K-20K"
+                class="px-2 md:px-2.5 md:py-px line-clamp-1 hover:bg-secondary hover:text-white transition-colors cursor-pointer rounded-md"
+                title="$10K - $20K">
+                $10K - $20K
+              </li>
+              <li
+                data-value="20K-30K"
+                class="px-2 md:px-2.5 md:py-px line-clamp-1 hover:bg-secondary hover:text-white transition-colors cursor-pointer rounded-md"
+                title="$20K - $30K">
+                $20K - $30K
+              </li>
+              <li
+                data-value="30K-40K"
+                class="px-2 md:px-2.5 md:py-px line-clamp-1 hover:bg-secondary hover:text-white transition-colors cursor-pointer rounded-md"
+                title="$30K - $40K">
+                $30K - $40K
+              </li>
+              <li
+                data-value="40K-50K"
+                class="px-2 md:px-2.5 md:py-px line-clamp-1 hover:bg-secondary hover:text-white transition-colors cursor-pointer rounded-md"
+                title="$40K - $50K">
+                $40K - $50K
+              </li>
+              <li
+                data-value="50K-60K"
+                class="px-2 md:px-2.5 md:py-px line-clamp-1 hover:bg-secondary hover:text-white transition-colors cursor-pointer rounded-md"
+                title="$50K - $60K">
+                $50K - $60K
+              </li>
+              <li
+                data-value="60K-70K"
+                class="px-2 md:px-2.5 md:py-px line-clamp-1 hover:bg-secondary hover:text-white transition-colors cursor-pointer rounded-md"
+                title="$60K - $70K">
+                $60K - $70K
+              </li>
+              <li
+                data-value="70K-80K"
+                class="px-2 md:px-2.5 md:py-px line-clamp-1 hover:bg-secondary hover:text-white transition-colors cursor-pointer rounded-md"
+                title="$70K - $80K">
+                $70K - $80K
+              </li>
+              <li
+                data-value="80K-90K"
+                class="px-2 md:px-2.5 md:py-px line-clamp-1 hover:bg-secondary hover:text-white transition-colors cursor-pointer rounded-md"
+                title="$80K - $90K">
+                $80K - $90K
+              </li>
+              <li
+                data-value="100K+"
+                class="px-2 md:px-2.5 md:py-px line-clamp-1 hover:bg-secondary hover:text-white transition-colors cursor-pointer rounded-md"
+                title="$100K+">
+                $100K+
+              </li>
+            </ul>
+          </div>
+          <a
+            id="search-btn"
+            href="javascript:void(0)"
+            class="flex items-center justify-center gap-x-2.5 shrink-0 w-36 md:w-44 lg:w-53.75 h-10 md:h-14 mt-2.5 sm:mt-0 font-medium text-white bg-secondary rounded-full"
+          >
+            <svg class="size-5">
+              <use href="#magnifying-glass"></use>
+            </svg>
+            Search Cars
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- Main -->
+    <main></main>
+    <!-- Footer -->
+    <footer></footer>
+
+    <!-- Javascripts -->
+    <script type="mdoule" src="../javascripts/app.js"></script>
+    <script type="mdoule" src="../javascripts/pages/cars.js"></script>
+  </body>
+</html>

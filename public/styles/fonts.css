@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "";
+  font-style: normal; /* normal, italic*/
+  font-weight: 400;
+  font-display: swap; /* swap, optional, fallback*/
+  src: url("") format("");
+  /* unicode-range:U+00-7F; */
+}

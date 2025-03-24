@@ -1,0 +1,1251 @@
+{
+  "brands": [
+    {
+      "_id": 1,
+      "name": "Audi",
+      "slug": "audi",
+      "models": [
+        { "name": "A3", "slug": "a3" },
+        { "name": "A4", "slug": "a4" },
+        { "name": "Q5", "slug": "q5" },
+        { "name": "Q7", "slug": "q7" },
+        { "name": "R8", "slug": "r8" }
+      ],
+      "logo": "./images/brands/audi.png",
+      "country": "Germany",
+      "founded": 1909
+    },
+    {
+      "_id": 2,
+      "name": "Toyota",
+      "slug": "toyota",
+      "models": [
+        { "name": "Camry", "slug": "camry" },
+        { "name": "Corolla", "slug": "corolla" },
+        { "name": "RAV4", "slug": "rav4" },
+        { "name": "Highlander", "slug": "highlander" },
+        { "name": "Prius", "slug": "prius" }
+      ],
+      "logo": "./images/brands/toyota.png",
+      "country": "Japan",
+      "founded": 1937
+    },
+    {
+      "_id": 3,
+      "name": "BMW",
+      "slug": "bmw",
+      "models": [
+        { "name": "3 Series", "slug": "3-series" },
+        { "name": "5 Series", "slug": "5-series" },
+        { "name": "X3", "slug": "x3" },
+        { "name": "X5", "slug": "x5" },
+        { "name": "M4", "slug": "m4" }
+      ],
+      "logo": "./images/brands/bmw.png",
+      "country": "Germany",
+      "founded": 1916
+    },
+    {
+      "_id": 4,
+      "name": "Ford",
+      "slug": "ford",
+      "models": [
+        { "name": "F-150", "slug": "f-150" },
+        { "name": "Mustang", "slug": "mustang" },
+        { "name": "Explorer", "slug": "explorer" },
+        { "name": "Escape", "slug": "escape" },
+        { "name": "Bronco", "slug": "bronco" }
+      ],
+      "logo": "./images/brands/ford.png",
+      "country": "USA",
+      "founded": 1903
+    },
+    {
+      "_id": 5,
+      "name": "Honda",
+      "slug": "honda",
+      "models": [
+        { "name": "Civic", "slug": "civic" },
+        { "name": "Accord", "slug": "accord" },
+        { "name": "CR-V", "slug": "cr-v" },
+        { "name": "Pilot", "slug": "pilot" },
+        { "name": "Odyssey", "slug": "odyssey" }
+      ],
+      "logo": "./images/brands/honda.png",
+      "country": "Japan",
+      "founded": 1948
+    },
+    {
+      "_id": 6,
+      "name": "Mercedes-Benz",
+      "slug": "mercedes-benz",
+      "models": [
+        { "name": "C-Class", "slug": "c-class" },
+        { "name": "E-Class", "slug": "e-class" },
+        { "name": "GLA", "slug": "gla" },
+        { "name": "GLE", "slug": "gle" },
+        { "name": "S-Class", "slug": "s-class" }
+      ],
+      "logo": "./images/brands/mercedes-benz.png",
+      "country": "Germany",
+      "founded": 1926
+    },
+    {
+      "_id": 7,
+      "name": "Chevrolet",
+      "slug": "chevrolet",
+      "models": [
+        { "name": "Malibu", "slug": "malibu" },
+        { "name": "Impala", "slug": "impala" },
+        { "name": "Tahoe", "slug": "tahoe" },
+        { "name": "Suburban", "slug": "suburban" },
+        { "name": "Camaro", "slug": "camaro" }
+      ],
+      "logo": "./images/brands/chevrolet.png",
+      "country": "United States",
+      "founded": 1911
+    },
+    {
+      "_id": 8,
+      "name": "Hyundai",
+      "slug": "hyundai",
+      "models": [
+        { "name": "Elantra", "slug": "elantra" },
+        { "name": "Sonata", "slug": "sonata" },
+        { "name": "Tucson", "slug": "tucson" },
+        { "name": "Santa Fe", "slug": "santa-fe" },
+        { "name": "Genesis", "slug": "genesis" }
+      ],
+      "logo": "./images/brands/hyundai.png",
+      "country": "South Korea",
+      "founded": 1967
+    },
+    {
+      "_id": 9,
+      "name": "Nissan",
+      "slug": "nissan",
+      "models": [
+        { "name": "Altima", "slug": "altima" },
+        { "name": "Maxima", "slug": "maxima" },
+        { "name": "Rogue", "slug": "rogue" },
+        { "name": "Pathfinder", "slug": "pathfinder" },
+        { "name": "GT-R", "slug": "gt-r" }
+      ],
+      "logo": "./images/brands/nissan.png",
+      "country": "Japan",
+      "founded": 1933
+    },
+    {
+      "_id": 10,
+      "name": "Tesla",
+      "slug": "tesla",
+      "models": [
+        { "name": "Model S", "slug": "model-s" },
+        { "name": "Model 3", "slug": "model-3" },
+        { "name": "Model X", "slug": "model-x" },
+        { "name": "Model Y", "slug": "model-y" },
+        { "name": "Roadster", "slug": "roadster" }
+      ],
+      "logo": "./images/brands/tesla.png",
+      "country": "United States",
+      "founded": 2003
+    }
+  ],
+  "blogs": [
+    {
+      "_id": 1,
+      "title": "2024 Audi A4: Luxury Meets Performance",
+      "slug": "2024-audi-a4-luxury-performance",
+      "body": "The 2024 Audi A4 offers refined styling and cutting-edge tech...",
+      "author": {
+        "name": "CarEnthusiast",
+        "profileImg": "./images/authors/carenthusiast.jpg"
+      },
+      "createdAt": "2024-03-15T10:30:00Z",
+      "updatedAt": "2024-03-15T10:30:00Z",
+      "cover": {
+        "alt": "2024 Audi A4",
+        "path": "./images/blogs/audi-a4.jpeg"
+      },
+      "comments": [
+        {
+          "_id": "",
+          "userId": "",
+          "userName": "Ali",
+          "content": "",
+          "userProfile": "",
+          "createdAt": "2024-01-20T09:20:05Z",
+          "reply": [
+            {
+              "_id": "",
+              "userId": "",
+              "userName": "Mohammad",
+              "content": "",
+              "userProfile": "",
+              "createdAt": "2024-02-01T00:00:00Z",
+              "reply": []
+            }
+          ]
+        }
+      ],
+      "tags": ["Audi", "Sedan", "2024"]
+    },
+    {
+      "_id": 2,
+      "title": "Toyota RAV4: Why It’s a Family Favorite",
+      "slug": "toyota-rav4-family-favorite",
+      "body": "The Toyota RAV4 blends reliability with family-friendly features...",
+      "author": {
+        "name": "AutoFamily",
+        "profileImg": "./images/authors/autofamily.jpg"
+      },
+      "createdAt": "2024-04-01T14:00:00Z",
+      "updatedAt": "2024-04-01T14:00:00Z",
+      "cover": {
+        "alt": "Toyota RAV4",
+        "path": "./images/blogs/toyota-rav4.jpeg"
+      },
+      "comments": [
+        {
+          "_id": "",
+          "userId": "",
+          "userName": "Ali",
+          "content": "",
+          "userProfile": "",
+          "createdAt": "2024-01-20T09:20:05Z",
+          "reply": [
+            {
+              "_id": "",
+              "userId": "",
+              "userName": "Mohammad",
+              "content": "",
+              "userProfile": "",
+              "createdAt": "2024-02-01T00:00:00Z",
+              "reply": []
+            }
+          ]
+        }
+      ],
+      "tags": ["Toyota", "SUV", "Family"]
+    },
+    {
+      "_id": 3,
+      "title": "BMW X5: A Deep Dive into Luxury SUVs",
+      "slug": "bmw-x5-luxury-suv",
+      "body": "The BMW X5 stands out with its powerful engine options and plush interior...",
+      "author": {
+        "name": "LuxuryDriven",
+        "profileImg": "./images/authors/luxurydriven.jpg"
+      },
+      "createdAt": "2024-05-10T09:00:00Z",
+      "updatedAt": "2024-05-10T09:00:00Z",
+      "cover": {
+        "alt": "BMW X5",
+        "path": "./images/blogs/bmw-x5.jpeg"
+      },
+      "comments": [
+        {
+          "_id": "",
+          "userId": "",
+          "userName": "Ali",
+          "content": "",
+          "userProfile": "",
+          "createdAt": "2024-01-20T09:20:05Z",
+          "reply": [
+            {
+              "_id": "",
+              "userId": "",
+              "userName": "Mohammad",
+              "content": "",
+              "userProfile": "",
+              "createdAt": "2024-02-01T00:00:00Z",
+              "reply": []
+            }
+          ]
+        }
+      ],
+      "tags": ["BMW", "SUV", "Luxury"]
+    },
+    {
+      "_id": 4,
+      "title": "Ford Mustang: The Evolution of an Icon",
+      "slug": "ford-mustang-evolution",
+      "body": "From its debut in 1964 to the latest models, the Mustang remains a legend...",
+      "author": {
+        "name": "MuscleCarFan",
+        "profileImg": "./images/authors/"
+      },
+      "createdAt": "2024-06-20T13:15:00Z",
+      "updatedAt": "2024-06-20T13:15:00Z",
+      "cover": {
+        "alt": "Ford Mustang",
+        "path": "./images/blogs/musclecarfan.jpeg"
+      },
+      "comments": [
+        {
+          "_id": "",
+          "userId": "",
+          "userName": "Ali",
+          "content": "",
+          "userProfile": "",
+          "createdAt": "2024-01-20T09:20:05Z",
+          "reply": [
+            {
+              "_id": "",
+              "userId": "",
+              "userName": "Mohammad",
+              "content": "",
+              "userProfile": "",
+              "createdAt": "2024-02-01T00:00:00Z",
+              "reply": []
+            }
+          ]
+        }
+      ],
+      "tags": ["Ford", "Muscle Car", "History"]
+    },
+    {
+      "_id": 5,
+      "title": "Honda Civic 2024: Affordable and Efficient",
+      "slug": "honda-civic-2024-affordable",
+      "body": "The 2024 Honda Civic offers impressive fuel economy and modern features...",
+      "author": {
+        "name": "EcoDriver",
+        "profileImg": "./images/authors/ecodriver.jpg"
+      },
+      "createdAt": "2024-07-05T11:45:00Z",
+      "updatedAt": "2024-07-05T11:45:00Z",
+      "cover": {
+        "alt": "Honda Civic",
+        "path": "./images/blogs/honda-civic.jpeg"
+      },
+      "comments": [
+        {
+          "_id": "",
+          "userId": "",
+          "userName": "Ali",
+          "content": "",
+          "userProfile": "",
+          "createdAt": "2024-01-20T09:20:05Z",
+          "reply": [
+            {
+              "_id": "",
+              "userId": "",
+              "userName": "Mohammad",
+              "content": "",
+              "userProfile": "",
+              "createdAt": "2024-02-01T00:00:00Z",
+              "reply": []
+            }
+          ]
+        }
+      ],
+      "tags": ["Honda", "Sedan", "Efficiency"]
+    }
+  ],
+  "users": [
+    {
+      "_id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "job": "Engineer",
+      "score": 5,
+      "comment": "Best car buying experience ever!",
+      "profileImg": "./images/users/user-1.jpg",
+      "createdAt": "2024-01-15T09:00:00Z"
+    },
+    {
+      "_id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "job": "Teacher",
+      "score": 4,
+      "comment": "Smooth process, great selection!",
+      "profileImg": "./images/users/user-2.jpg",
+      "createdAt": "2024-02-20T11:30:00Z"
+    },
+    {
+      "_id": 3,
+      "name": "Mike Johnson",
+      "email": "mike.johnson@example.com",
+      "job": "Accountant",
+      "score": 5,
+      "comment": "The staff was incredibly helpful!",
+      "profileImg": "./images/users/user-3.jpg",
+      "createdAt": "2024-03-10T14:00:00Z"
+    },
+    {
+      "_id": 4,
+      "name": "Emily Davis",
+      "email": "emily.davis@example.com",
+      "job": "Designer",
+      "score": 4,
+      "comment": "Loved the car, delivery was quick.",
+      "profileImg": "./images/users/user-4.jpg",
+      "createdAt": "2024-04-05T16:15:00Z"
+    },
+    {
+      "_id": 5,
+      "name": "Christina Lee",
+      "email": "christina.lee@example.com",
+      "job": "Sales Manager",
+      "score": 5,
+      "comment": "Top-notch quality and service!",
+      "profileImg": "./images/users/user-5.jpg",
+      "createdAt": "2024-05-01T10:30:00Z"
+    }
+  ],
+  "cars": [
+    {
+      "_id": 1,
+      "brandId": 1,
+      "manufacturer": "Audi",
+      "model": "A4",
+      "modelSeries": "",
+      "bodyStyle": "Sedan",
+      "trimLevel": "Premium Plus",
+      "year": 2024,
+      "topSpeed": { "value": 250, "unit": "km/h" },
+      "mileage": { "value": 0, "unit": "km" },
+      "price": { "original": 42000, "currency": "USD", "discounted": 39900 },
+      "fuelType": "Gasoline",
+      "driveType": "AWD",
+      "condition": "new",
+      "transmission": "7-Speed S tronic",
+      "engine": {
+        "size": 2.0,
+        "unit": "L",
+        "cylinders": 4,
+        "type": "Turbocharged Inline-4",
+        "horsepower": 261
+      },
+      "doors": 4,
+      "colors": [
+        { "name": "Glacier White", "hex": "#FFFFFF" },
+        { "name": "Mythos Black", "hex": "#000000" }
+      ],
+      "vin": "AUDI123456",
+      "description": "A luxurious sedan with advanced tech and sleek design.",
+      "features": {
+        "interior": ["Leather Seats", "Bang & Olufsen Sound"],
+        "safety": ["Adaptive Cruise", "Lane Assist"],
+        "exterior": ["LED Headlights", "18\" Alloys"],
+        "comfort": ["Keyless Entry", "Wireless Charging"]
+      },
+      "specifications": {
+        "dimensions": {
+          "length": { "value": 4762, "unit": "mm" },
+          "width": { "value": 1847, "unit": "mm" },
+          "height": { "value": 1428, "unit": "mm" },
+          "wheelbase": { "value": 2820, "unit": "mm" },
+          "luggageCapacity": { "value": 460, "unit": "L" },
+          "maxLoadingWeight": { "value": 500, "unit": "kg" }
+        },
+        "engineAndTransmission": {
+          "fuelTankCapacity": { "value": 58, "unit": "L" },
+          "range": { "value": 750, "unit": "km" },
+          "emissions": { "value": 140, "unit": "g/km" }
+        }
+      },
+      "location": {
+        "coordinates": { "latitude": 48.1351, "longitude": 11.582 },
+        "address": "Ingolstadt, Germany"
+      },
+      "reviews": {
+        "overallRating": 4.8,
+        "count": 15,
+        "breakdown": [
+          {
+            "category": "Performance",
+            "rating": 5,
+            "description": "Outstanding"
+          },
+          { "category": "Comfort", "rating": 4, "description": "Very Good" }
+        ]
+      },
+      "comments": [
+        {
+          "userId": 1,
+          "name": "John Doe",
+          "rating": 5,
+          "profileImg": "./images/users/john-doe.jpg",
+          "content": "Unmatched driving experience!",
+          "createdAt": "2024-05-01T15:00:00Z"
+        }
+      ],
+      "owners": 0,
+      "images": [
+        { "path": "./images/cars/audi-a4-1.jpeg", "alt": "Audi A4 Exterior" },
+        { "path": "./images/cars/audi-a4-2.jpeg", "alt": "Audi A4 Interior" }
+      ],
+      "discount": { "percentage": 5, "expiresAt": "2024-12-31T23:59:59Z" },
+      "isPopular": true,
+      "stock": 5,
+      "status": "available",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-05-01T15:30:00Z"
+    },
+    {
+      "_id": 2,
+      "brandId": 2,
+      "manufacturer": "Toyota",
+      "model": "RAV4",
+      "modelSeries": "",
+      "bodyStyle": "SUV",
+      "trimLevel": "LE",
+      "year": 2023,
+      "topSpeed": { "value": 180, "unit": "km/h" },
+      "mileage": { "value": 15000, "unit": "km" },
+      "price": { "original": 28000, "currency": "USD", "discounted": 26000 },
+      "fuelType": "Gasoline",
+      "driveType": "AWD",
+      "condition": "used",
+      "transmission": "8-Speed Automatic",
+      "engine": {
+        "size": 2.5,
+        "unit": "L",
+        "cylinders": 4,
+        "type": "Naturally Aspirated Inline-4",
+        "horsepower": 203
+      },
+      "doors": 5,
+      "colors": [
+        { "name": "Magnetic Gray", "hex": "#4F4F4F" },
+        { "name": "Super White", "hex": "#FFFFFF" }
+      ],
+      "vin": "TOYOTA987654",
+      "description": "A reliable SUV for city and off-road adventures.",
+      "features": {
+        "interior": ["Cloth Seats", "7\" Touchscreen"],
+        "safety": ["Toyota Safety Sense", "Blind Spot Monitor"],
+        "exterior": ["LED DRLs", "17\" Wheels"],
+        "comfort": ["Dual-Zone Climate", "Apple CarPlay"]
+      },
+      "specifications": {
+        "dimensions": {
+          "length": { "value": 4600, "unit": "mm" },
+          "width": { "value": 1855, "unit": "mm" },
+          "height": { "value": 1685, "unit": "mm" },
+          "wheelbase": { "value": 2690, "unit": "mm" },
+          "luggageCapacity": { "value": 580, "unit": "L" },
+          "maxLoadingWeight": { "value": 600, "unit": "kg" }
+        },
+        "engineAndTransmission": {
+          "fuelTankCapacity": { "value": 55, "unit": "L" },
+          "range": { "value": 600, "unit": "km" },
+          "emissions": { "value": 150, "unit": "g/km" }
+        }
+      },
+      "location": {
+        "coordinates": { "latitude": 35.6895, "longitude": 139.6917 },
+        "address": "Tokyo, Japan"
+      },
+      "reviews": {
+        "overallRating": 4.6,
+        "count": 20,
+        "breakdown": [
+          {
+            "category": "Reliability",
+            "rating": 5,
+            "description": "Excellent"
+          },
+          { "category": "Fuel Efficiency", "rating": 4, "description": "Good" }
+        ]
+      },
+      "comments": [
+        {
+          "userId": 2,
+          "name": "Jane Smith",
+          "rating": 4,
+          "profileImg": "./images/users/jane-smith.jpg",
+          "content": "Great handling in all conditions!",
+          "createdAt": "2024-06-15T10:00:00Z"
+        }
+      ],
+      "owners": 1,
+      "images": [
+        {
+          "path": "./images/cars/toyota-rav4-1.jpeg",
+          "alt": "Toyota RAV4 Exterior"
+        },
+        {
+          "path": "./images/cars/toyota-rav4-2.jpeg",
+          "alt": "Toyota RAV4 Interior"
+        }
+      ],
+      "discount": { "percentage": 7, "expiresAt": "2024-11-30T23:59:59Z" },
+      "isPopular": true,
+      "stock": 2,
+      "status": "available",
+      "createdAt": "2023-12-01T00:00:00Z",
+      "updatedAt": "2024-06-15T10:30:00Z"
+    },
+    {
+      "_id": 3,
+      "brandId": 3,
+      "manufacturer": "BMW",
+      "model": "X5",
+      "modelSeries": "",
+      "bodyStyle": "SUV",
+      "trimLevel": "xDrive40i",
+      "year": 2023,
+      "topSpeed": { "value": 243, "unit": "km/h" },
+      "mileage": { "value": 5000, "unit": "km" },
+      "price": { "original": 62000, "currency": "USD", "discounted": 58900 },
+      "fuelType": "Gasoline",
+      "driveType": "AWD",
+      "condition": "used",
+      "transmission": "8-Speed Sport Automatic",
+      "engine": {
+        "size": 3.0,
+        "unit": "L",
+        "cylinders": 6,
+        "type": "Turbocharged Inline-6",
+        "horsepower": 335
+      },
+      "doors": 5,
+      "colors": [
+        { "name": "Alpine White", "hex": "#F7F7F7" },
+        { "name": "Black Sapphire", "hex": "#1C2526" }
+      ],
+      "vin": "BMW567890",
+      "description": "A premium SUV with powerful performance and luxury features.",
+      "features": {
+        "interior": ["Vernasca Leather", "Panoramic Sunroof"],
+        "safety": ["Active Blind Spot", "Lane Departure Warning"],
+        "exterior": ["20\" Wheels", "Roof Rails"],
+        "comfort": ["Heated Seats", "Wireless Android Auto"]
+      },
+      "specifications": {
+        "dimensions": {
+          "length": { "value": 4922, "unit": "mm" },
+          "width": { "value": 2004, "unit": "mm" },
+          "height": { "value": 1745, "unit": "mm" },
+          "wheelbase": { "value": 2975, "unit": "mm" },
+          "luggageCapacity": { "value": 650, "unit": "L" },
+          "maxLoadingWeight": { "value": 750, "unit": "kg" }
+        },
+        "engineAndTransmission": {
+          "fuelTankCapacity": { "value": 83, "unit": "L" },
+          "range": { "value": 700, "unit": "km" },
+          "emissions": { "value": 180, "unit": "g/km" }
+        }
+      },
+      "location": {
+        "coordinates": { "latitude": 48.1374, "longitude": 11.5761 },
+        "address": "Munich, Germany"
+      },
+      "reviews": {
+        "overallRating": 4.9,
+        "count": 10,
+        "breakdown": [
+          {
+            "category": "Performance",
+            "rating": 5,
+            "description": "Exceptional"
+          },
+          { "category": "Luxury", "rating": 5, "description": "Top-Notch" }
+        ]
+      },
+      "comments": [
+        {
+          "userId": 3,
+          "name": "Mike Johnson",
+          "rating": 5,
+          "profileImg": "./images/users/mike-johnson.jpg",
+          "content": "Incredible power and comfort!",
+          "createdAt": "2024-07-01T12:00:00Z"
+        }
+      ],
+      "owners": 1,
+      "images": [
+        { "path": "./images/cars/bmw-x5-1.jpeg", "alt": "BMW X5 Exterior" },
+        { "path": "./images/cars/bmw-x5-2.jpeg", "alt": "BMW X5 Interior" }
+      ],
+      "discount": { "percentage": 5, "expiresAt": "2024-12-15T23:59:59Z" },
+      "isPopular": true,
+      "stock": 3,
+      "status": "available",
+      "createdAt": "2023-11-01T00:00:00Z",
+      "updatedAt": "2024-07-01T12:30:00Z"
+    },
+    {
+      "_id": 4,
+      "brandId": 4,
+      "manufacturer": "Ford",
+      "model": "Mustang",
+      "modelSeries": "",
+      "bodyStyle": "Coupe",
+      "trimLevel": "GT",
+      "year": 2022,
+      "topSpeed": { "value": 250, "unit": "km/h" },
+      "mileage": { "value": 20000, "unit": "km" },
+      "price": { "original": 45000, "currency": "USD", "discounted": 40500 },
+      "fuelType": "Gasoline",
+      "driveType": "RWD",
+      "condition": "used",
+      "transmission": "10-Speed Automatic",
+      "engine": {
+        "size": 5.0,
+        "unit": "L",
+        "cylinders": 8,
+        "type": "Naturally Aspirated V8",
+        "horsepower": 450
+      },
+      "doors": 2,
+      "colors": [
+        { "name": "Shadow Black", "hex": "#1A1A1A" },
+        { "name": "Race Red", "hex": "#FF0000" }
+      ],
+      "vin": "FORD345678",
+      "description": "A classic muscle car with raw power and iconic styling.",
+      "features": {
+        "interior": ["Leather-Trimmed Seats", "8\" Touchscreen"],
+        "safety": ["Pre-Collision Assist", "Rear View Camera"],
+        "exterior": ["19\" Wheels", "Dual Exhaust"],
+        "comfort": ["Push-Button Start", "SYNC 3"]
+      },
+      "specifications": {
+        "dimensions": {
+          "length": { "value": 4784, "unit": "mm" },
+          "width": { "value": 1916, "unit": "mm" },
+          "height": { "value": 1381, "unit": "mm" },
+          "wheelbase": { "value": 2720, "unit": "mm" },
+          "luggageCapacity": { "value": 382, "unit": "L" },
+          "maxLoadingWeight": { "value": 400, "unit": "kg" }
+        },
+        "engineAndTransmission": {
+          "fuelTankCapacity": { "value": 61, "unit": "L" },
+          "range": { "value": 500, "unit": "km" },
+          "emissions": { "value": 260, "unit": "g/km" }
+        }
+      },
+      "location": {
+        "coordinates": { "latitude": 42.3314, "longitude": -83.0458 },
+        "address": "Detroit, MI, USA"
+      },
+      "reviews": {
+        "overallRating": 4.7,
+        "count": 25,
+        "breakdown": [
+          {
+            "category": "Performance",
+            "rating": 5,
+            "description": "Thrilling"
+          },
+          { "category": "Design", "rating": 5, "description": "Iconic" }
+        ]
+      },
+      "comments": [
+        {
+          "userId": 4,
+          "name": "Emily Davis",
+          "rating": 5,
+          "profileImg": "./images/users/emily-davis.jpg",
+          "content": "A dream car for any enthusiast!",
+          "createdAt": "2024-08-10T14:00:00Z"
+        }
+      ],
+      "owners": 1,
+      "images": [
+        {
+          "path": "./images/cars/ford-mustang-1.jpg",
+          "alt": "Ford Mustang Exterior"
+        },
+        {
+          "path": "./images/cars/ford-mustang-2.jpeg",
+          "alt": "Ford Mustang Interior"
+        },
+        {
+          "path": "./images/cars/ford-mustang-3.jpeg",
+          "alt": "Ford Mustang Inside"
+        }
+      ],
+      "discount": { "percentage": 10, "expiresAt": "2024-10-31T23:59:59Z" },
+      "isPopular": true,
+      "stock": 1,
+      "status": "available",
+      "createdAt": "2022-10-01T00:00:00Z",
+      "updatedAt": "2024-08-10T14:30:00Z"
+    },
+    {
+      "_id": 5,
+      "brandId": 5,
+      "manufacturer": "Honda",
+      "model": "Civic",
+      "modelSeries": "",
+      "bodyStyle": "Sedan",
+      "trimLevel": "EX",
+      "year": 2024,
+      "topSpeed": { "value": 200, "unit": "km/h" },
+      "mileage": { "value": 0, "unit": "km" },
+      "price": { "original": 25000, "currency": "USD", "discounted": 23750 },
+      "fuelType": "Gasoline",
+      "driveType": "FWD",
+      "condition": "new",
+      "transmission": "CVT",
+      "engine": {
+        "size": 1.5,
+        "unit": "L",
+        "cylinders": 4,
+        "type": "Turbocharged Inline-4",
+        "horsepower": 174
+      },
+      "doors": 4,
+      "colors": [
+        { "name": "Crystal Black", "hex": "#1F2525" },
+        { "name": "Platinum White", "hex": "#F5F6F5" }
+      ],
+      "vin": "HONDA901234",
+      "description": "An efficient and affordable sedan with modern tech.",
+      "features": {
+        "interior": ["Cloth Seats", "8\" Display Audio"],
+        "safety": ["Honda Sensing", "Adaptive Cruise"],
+        "exterior": ["16\" Alloys", "LED Headlights"],
+        "comfort": ["Remote Start", "Apple CarPlay"]
+      },
+      "specifications": {
+        "dimensions": {
+          "length": { "value": 4674, "unit": "mm" },
+          "width": { "value": 1802, "unit": "mm" },
+          "height": { "value": 1415, "unit": "mm" },
+          "wheelbase": { "value": 2700, "unit": "mm" },
+          "luggageCapacity": { "value": 428, "unit": "L" },
+          "maxLoadingWeight": { "value": 450, "unit": "kg" }
+        },
+        "engineAndTransmission": {
+          "fuelTankCapacity": { "value": 47, "unit": "L" },
+          "range": { "value": 650, "unit": "km" },
+          "emissions": { "value": 130, "unit": "g/km" }
+        }
+      },
+      "location": {
+        "coordinates": { "latitude": 35.6762, "longitude": 139.6503 },
+        "address": "Tokyo, Japan"
+      },
+      "reviews": {
+        "overallRating": 4.5,
+        "count": 18,
+        "breakdown": [
+          {
+            "category": "Fuel Efficiency",
+            "rating": 5,
+            "description": "Excellent"
+          },
+          { "category": "Comfort", "rating": 4, "description": "Good" }
+        ]
+      },
+      "comments": [
+        {
+          "userId": 5,
+          "name": "Chris Lee",
+          "rating": 4,
+          "profileImg": "./images/users/chris-lee.jpg",
+          "content": "Perfect daily driver!",
+          "createdAt": "2024-09-01T09:00:00Z"
+        }
+      ],
+      "owners": 0,
+      "images": [
+        {
+          "path": "./images/cars/honda-civic-1.jpeg",
+          "alt": "Honda Civic Exterior"
+        },
+        {
+          "path": "./images/cars/honda-civic-2.jpg",
+          "alt": "Honda Civic Interior"
+        },
+        {
+          "path": "./images/cars/honda-civic-3.jpeg",
+          "alt": "Honda Civic Interior"
+        }
+      ],
+      "discount": { "percentage": 5, "expiresAt": "2024-12-31T23:59:59Z" },
+      "isPopular": false,
+      "stock": 4,
+      "status": "available",
+      "createdAt": "2024-06-01T00:00:00Z",
+      "updatedAt": "2024-09-01T09:30:00Z"
+    },
+    {
+      "_id": 6,
+      "brandId": 2,
+      "manufacturer": "BMW",
+      "model": "3 Series",
+      "modelSeries": "G20",
+      "bodyStyle": "Sedan",
+      "trimLevel": "Sport Line",
+      "year": 2023,
+      "topSpeed": { "value": 240, "unit": "km/h" },
+      "mileage": { "value": 500, "unit": "km" },
+      "price": { "original": 45000, "currency": "USD", "discounted": 43500 },
+      "fuelType": "Gasoline",
+      "driveType": "RWD",
+      "condition": "used",
+      "transmission": "8-Speed Automatic",
+      "engine": {
+        "size": 2.0,
+        "unit": "L",
+        "cylinders": 4,
+        "type": "Turbocharged Inline-4",
+        "horsepower": 255
+      },
+      "doors": 4,
+      "colors": [
+        { "name": "Alpine White", "hex": "#FFFFFF" },
+        { "name": "Black Sapphire", "hex": "#000000" }
+      ],
+      "vin": "BMW123456",
+      "description": "A perfect blend of sportiness and luxury.",
+      "features": {
+        "interior": ["Sports Seats", "Harman Kardon Sound System"],
+        "safety": ["Blind Spot Monitoring", "Park Assist"],
+        "exterior": ["19\" Alloys", "Sunroof"],
+        "comfort": ["Dual-Zone Climate Control", "Heated Seats"]
+      },
+      "specifications": {
+        "dimensions": {
+          "length": { "value": 4709, "unit": "mm" },
+          "width": { "value": 1827, "unit": "mm" },
+          "height": { "value": 1442, "unit": "mm" },
+          "wheelbase": { "value": 2851, "unit": "mm" },
+          "luggageCapacity": { "value": 480, "unit": "L" },
+          "maxLoadingWeight": { "value": 520, "unit": "kg" }
+        },
+        "engineAndTransmission": {
+          "fuelTankCapacity": { "value": 59, "unit": "L" },
+          "range": { "value": 720, "unit": "km" },
+          "emissions": { "value": 150, "unit": "g/km" }
+        }
+      },
+      "location": {
+        "coordinates": { "latitude": 48.1351, "longitude": 11.582 },
+        "address": "Munich, Germany"
+      },
+      "reviews": {
+        "overallRating": 4.7,
+        "count": 20,
+        "breakdown": [
+          {
+            "category": "Performance",
+            "rating": 5,
+            "description": "Impressive"
+          },
+          { "category": "Comfort", "rating": 4, "description": "Great" }
+        ]
+      },
+      "comments": [
+        {
+          "userId": 2,
+          "name": "Jane Smith",
+          "rating": 5,
+          "profileImg": "./images/users/jane-smith.jpg",
+          "content": "A stunning driving experience with precise handling!",
+          "createdAt": "2023-09-15T10:30:00Z"
+        }
+      ],
+      "owners": 1,
+      "images": [
+        {
+          "path": "./images/cars/2023-bmw-3-series-sedan-ogi-1.webp",
+          "alt": "BMW 3 Series Exterior"
+        },
+        {
+          "path": "./images/cars/bmw3series_201.webp",
+          "alt": "BMW 3 Series Interior"
+        }
+      ],
+      "discount": { "percentage": 3, "expiresAt": "2023-12-31T23:59:59Z" },
+      "isPopular": true,
+      "stock": 10,
+      "status": "available",
+      "createdAt": "2023-05-01T00:00:00Z",
+      "updatedAt": "2023-09-16T15:45:00Z"
+    },
+    {
+      "_id": 7,
+      "brandId": 3,
+      "manufacturer": "Mercedes-Benz",
+      "model": "C-Class",
+      "modelSeries": "W206",
+      "bodyStyle": "Coupe",
+      "trimLevel": "AMG Line",
+      "year": 2023,
+      "topSpeed": { "value": 250, "unit": "km/h" },
+      "mileage": { "value": 10, "unit": "km" },
+      "price": { "original": 52000, "currency": "USD", "discounted": 50000 },
+      "fuelType": "Gasoline",
+      "driveType": "RWD",
+      "condition": "new",
+      "transmission": "9-Speed Automatic",
+      "engine": {
+        "size": 2.0,
+        "unit": "L",
+        "cylinders": 4,
+        "type": "Turbocharged Inline-4",
+        "horsepower": 295
+      },
+      "doors": 2,
+      "colors": [
+        { "name": "Polar White", "hex": "#FFFFFF" },
+        { "name": "Obsidian Black", "hex": "#000000" }
+      ],
+      "vin": "MERCEDES123456",
+      "description": "A stylish coupe with luxury features and impressive performance.",
+      "features": {
+        "interior": ["Ambient Lighting", "Burmester Sound System"],
+        "safety": ["Collision Prevention", "Traffic Sign Assist"],
+        "exterior": ["Panoramic Roof", "20\" Alloy Wheels"],
+        "comfort": ["Ventilated Seats", "Memory Seats"]
+      },
+      "specifications": {
+        "dimensions": {
+          "length": { "value": 4680, "unit": "mm" },
+          "width": { "value": 1810, "unit": "mm" },
+          "height": { "value": 1410, "unit": "mm" },
+          "wheelbase": { "value": 2865, "unit": "mm" },
+          "luggageCapacity": { "value": 390, "unit": "L" },
+          "maxLoadingWeight": { "value": 480, "unit": "kg" }
+        },
+        "engineAndTransmission": {
+          "fuelTankCapacity": { "value": 60, "unit": "L" },
+          "range": { "value": 680, "unit": "km" },
+          "emissions": { "value": 142, "unit": "g/km" }
+        }
+      },
+      "location": {
+        "coordinates": { "latitude": 48.7758, "longitude": 9.1829 },
+        "address": "Stuttgart, Germany"
+      },
+      "reviews": {
+        "overallRating": 4.6,
+        "count": 12,
+        "breakdown": [
+          {
+            "category": "Performance",
+            "rating": 4,
+            "description": "Very Good"
+          },
+          { "category": "Comfort", "rating": 5, "description": "Excellent" }
+        ]
+      },
+      "comments": [
+        {
+          "userId": 3,
+          "name": "Alan Walker",
+          "rating": 4,
+          "profileImg": "./images/users/alan-walker.jpg",
+          "content": "Luxury redefined in a coupe form!",
+          "createdAt": "2023-07-20T14:00:00Z"
+        }
+      ],
+      "owners": 0,
+      "images": [
+        {
+          "path": "./images/cars/mercedes-cclass-1.webp",
+          "alt": "Mercedes-Benz C-Class Coupe Exterior"
+        },
+        {
+          "path": "./images/cars/mercedes-cclass-2.jpeg",
+          "alt": "Mercedes-Benz C-Class Coupe Exterior"
+        }
+      ],
+      "discount": { "percentage": 4, "expiresAt": "2023-12-31T23:59:59Z" },
+      "isPopular": true,
+      "stock": 8,
+      "status": "available",
+      "createdAt": "2023-06-01T00:00:00Z",
+      "updatedAt": "2023-08-01T12:00:00Z"
+    },
+    {
+      "_id": 8,
+      "brandId": 4,
+      "manufacturer": "Toyota",
+      "model": "Corolla",
+      "modelSeries": "GR Sport",
+      "bodyStyle": "Hatchback",
+      "trimLevel": "Sport",
+      "year": 2023,
+      "topSpeed": { "value": 210, "unit": "km/h" },
+      "mileage": { "value": 0, "unit": "km" },
+      "price": { "original": 25000, "currency": "USD", "discounted": 24000 },
+      "fuelType": "Hybrid",
+      "driveType": "FWD",
+      "condition": "new",
+      "transmission": "CVT",
+      "engine": {
+        "size": 1.8,
+        "unit": "L",
+        "cylinders": 4,
+        "type": "Hybrid (Electric Motor + Gasoline Engine)",
+        "horsepower": 140
+      },
+      "doors": 5,
+      "colors": [
+        { "name": "Metallic Silver", "hex": "#C0C0C0" },
+        { "name": "Blue Flame", "hex": "#0000FF" }
+      ],
+      "vin": "TOYOTA123456",
+      "description": "A sporty hybrid hatchback with great fuel efficiency.",
+      "features": {
+        "interior": ["Fabric Seats", "Touchscreen Display"],
+        "safety": ["Lane Keeping Assist", "Pre-Collision System"],
+        "exterior": ["18\" Alloy Wheels", "Sporty Grille"],
+        "comfort": ["Dual-Zone AC", "Push-Button Start"]
+      },
+      "specifications": {
+        "dimensions": {
+          "length": { "value": 4370, "unit": "mm" },
+          "width": { "value": 1790, "unit": "mm" },
+          "height": { "value": 1430, "unit": "mm" },
+          "wheelbase": { "value": 2640, "unit": "mm" },
+          "luggageCapacity": { "value": 350, "unit": "L" },
+          "maxLoadingWeight": { "value": 450, "unit": "kg" }
+        },
+        "engineAndTransmission": {
+          "fuelTankCapacity": { "value": 43, "unit": "L" },
+          "range": { "value": 1100, "unit": "km" },
+          "emissions": { "value": 98, "unit": "g/km" }
+        }
+      },
+      "location": {
+        "coordinates": { "latitude": 35.6895, "longitude": 139.6917 },
+        "address": "Tokyo, Japan"
+      },
+      "reviews": {
+        "overallRating": 4.5,
+        "count": 30,
+        "breakdown": [
+          {
+            "category": "Fuel Efficiency",
+            "rating": 5,
+            "description": "Excellent"
+          },
+          { "category": "Performance", "rating": 4, "description": "Very Good" }
+        ]
+      },
+      "comments": [
+        {
+          "userId": 4,
+          "name": "Akira Yamada",
+          "rating": 5,
+          "profileImg": "./images/users/akira-yamada.jpg",
+          "content": "Perfect for city driving with sporty handling!",
+          "createdAt": "2024-01-15T12:00:00Z"
+        }
+      ],
+      "owners": 0,
+      "images": [
+        {
+          "path": "./images/cars/toyota-corolla-1.jpg",
+          "alt": "Toyota Corolla Exterior"
+        },
+        {
+          "path": "./images/cars/toyota-corolla-2.jpeg",
+          "alt": "Toyota Corolla Interior"
+        }
+      ],
+      "discount": { "percentage": 4, "expiresAt": "2023-12-31T23:59:59Z" },
+      "isPopular": true,
+      "stock": 12,
+      "status": "available",
+      "createdAt": "2023-04-01T00:00:00Z",
+      "updatedAt": "2023-09-01T12:00:00Z"
+    },
+    {
+      "_id": 9,
+      "brandId": 5,
+      "manufacturer": "Honda",
+      "model": "Civic",
+      "modelSeries": "Type R",
+      "bodyStyle": "Hatchback",
+      "trimLevel": "Performance",
+      "year": 2024,
+      "topSpeed": { "value": 270, "unit": "km/h" },
+      "mileage": { "value": 100, "unit": "km" },
+      "price": { "original": 43000, "currency": "USD", "discounted": 42000 },
+      "fuelType": "Gasoline",
+      "driveType": "FWD",
+      "condition": "new",
+      "transmission": "6-Speed Manual",
+      "engine": {
+        "size": 2.0,
+        "unit": "L",
+        "cylinders": 4,
+        "type": "Turbocharged Inline-4",
+        "horsepower": 320
+      },
+      "doors": 5,
+      "colors": [
+        { "name": "Championship White", "hex": "#FFFFFF" },
+        { "name": "Rallye Red", "hex": "#FF0000" }
+      ],
+      "vin": "HONDA123456",
+      "description": "High-performance hatchback designed for speed enthusiasts.",
+      "features": {
+        "interior": ["Sports Seats", "Alcantara Upholstery"],
+        "safety": ["Adaptive Cruise Control", "Collision Mitigation"],
+        "exterior": ["19\" Alloy Wheels", "Aggressive Aerodynamics"],
+        "comfort": ["Recaro Seats", "Smartphone Integration"]
+      },
+      "specifications": {
+        "dimensions": {
+          "length": { "value": 4596, "unit": "mm" },
+          "width": { "value": 1890, "unit": "mm" },
+          "height": { "value": 1430, "unit": "mm" },
+          "wheelbase": { "value": 2735, "unit": "mm" },
+          "luggageCapacity": { "value": 420, "unit": "L" },
+          "maxLoadingWeight": { "value": 470, "unit": "kg" }
+        },
+        "engineAndTransmission": {
+          "fuelTankCapacity": { "value": 50, "unit": "L" },
+          "range": { "value": 600, "unit": "km" },
+          "emissions": { "value": 180, "unit": "g/km" }
+        }
+      },
+      "location": {
+        "coordinates": { "latitude": 35.0116, "longitude": 135.7681 },
+        "address": "Kyoto, Japan"
+      },
+      "reviews": {
+        "overallRating": 4.9,
+        "count": 45,
+        "breakdown": [
+          {
+            "category": "Performance",
+            "rating": 5,
+            "description": "Exceptional"
+          },
+          { "category": "Handling", "rating": 5, "description": "Precise" }
+        ]
+      },
+      "comments": [
+        {
+          "userId": 5,
+          "name": "Kenta Suzuki",
+          "rating": 5,
+          "profileImg": "./images/users/kenta-suzuki.jpg",
+          "content": "Phenomenal performance on and off the track!",
+          "createdAt": "2024-02-10T10:00:00Z"
+        }
+      ],
+      "owners": 0,
+      "images": [
+        {
+          "path": "./images/cars/honda-civic-2.jpg",
+          "alt": "Honda Civic Type R Exterior"
+        },
+        {
+          "path": "./images/cars/honda-civic-1.jpg",
+          "alt": "Honda Civic Type R Interior"
+        }
+      ],
+      "discount": { "percentage": 2, "expiresAt": "2024-12-31T23:59:59Z" },
+      "isPopular": true,
+      "stock": 8,
+      "status": "available",
+      "createdAt": "2023-09-01T00:00:00Z",
+      "updatedAt": "2024-02-15T12:00:00Z"
+    }
+  ]
+}
