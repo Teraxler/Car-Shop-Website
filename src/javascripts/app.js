@@ -1,3 +1,5 @@
+"use strict";
+
 import { getBrands } from "./apis/brands.api.js";
 import { getElementByClass } from "./modules/utils.js";
 
