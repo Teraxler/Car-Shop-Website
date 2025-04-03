@@ -6,4 +6,4 @@
 
 ## Preview
 
-![Home page](.\public\images\preview-home-page.jpg)
+![Home page](/public/images/preview-home-page.jpg)
