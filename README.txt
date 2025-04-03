@@ -6,4 +6,4 @@
 
 ## Preview
 
-![Home page](.\public\images\preview-home-page.jpg)
+![Home page](https://github.com/Teraxler/Car-Shop-Website/blob/master/public/images/preview-home-page.jpg)
