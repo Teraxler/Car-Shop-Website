@@ -1,4 +1,9 @@
-Car Shop Website developed with HTML, CSS, JavaScrip And Tailwind CSS
+# Car Shop Website
 
-Demo: https://teraxler.github.io/Car-Shop-Website/src/
+<p>Car Shop Website developed with `HTML`, `CSS`, `JavaScript` And `Tailwind CSS`</p>
 
+[Demo](https://teraxler.github.io/Car-Shop-Website/src/)
+
+## Preview
+
+![Home page](.\public\images\preview-home-page.jpg)
