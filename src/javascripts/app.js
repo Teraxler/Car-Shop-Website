@@ -8,8 +8,6 @@ let countBrandsInFooter = 8;
 function insertOurBrandsInFooter(brands, container) {
   let template = "";
 
-  // JUST TEST
-
   countBrandsInFooter = Math.min(countBrandsInFooter, brands.length);
 
   if (brands.length) {
