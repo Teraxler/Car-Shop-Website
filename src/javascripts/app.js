@@ -5,22 +5,6 @@ import { getElementByClass } from "./modules/utils.js";
 
 let countBrandsInFooter = 8;
 
-function insertOurBrandsInFooter(brands, container) {
-  let template = "";
-
-  countBrandsInFooter = Math.min(countBrandsInFooter, brands.length);
-
-  if (brands.length) {
-    for (let i = 0; i < countBrandsInFooter; i++) {
-      template += `
-        <li>
-          <a href="./pages/cars.html?brand=${brands[i].slug}"> ${brands[i].name} </a>
-        </li>`;
-    }
-  }
-
-  container.innerHTML = template;
-}
 
 const ourBrandsContainer = document.getElementById("our-brands-container");
 
