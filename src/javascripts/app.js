@@ -5,6 +5,11 @@ import { getElementByClass } from "./modules/utils.js";
 
 let countBrandsInFooter = 8;
 
+function generateRandomNumber (number){
+  return (Math.random() * number)
+}
+
+
 function insertOurBrandsInFooter(brands, container) {
   let template = "";
 
